@@ -13,7 +13,7 @@ export class ApiService {
     var getHospitalURL = environment.hospitalcareUrl;
     return this.http.get(getHospitalURL);
   }
-
+  
   postHospitalDetails(body) : Observable<any> {
     var hospitalDetailsURL = environment.hospitalcareUrl;
     var headers = new HttpHeaders();
