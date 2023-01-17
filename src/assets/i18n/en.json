@@ -1,0 +1,13 @@
+{
+	"login": {
+		"login": "Login",
+		"home":"Home",
+        "Eng":"English",
+        "Mal":"Malayalam",
+		"create":"Create",
+		"malayalamtitle":"Malayalam Title",
+		"malayalambody":"Malayalam Body",
+		"Savedsuccess":"Saved Successfully",
+		"save":"Save"
+	}
+}

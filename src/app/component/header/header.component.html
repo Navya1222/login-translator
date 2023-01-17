@@ -1,0 +1,39 @@
+<header class="header fixed-top">
+<nav class="navbar navbar-light bg-dark justify-content-between">
+  <ul class="nav ">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="homeRouting()">{{'login.home' | translate }}  </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="loginRouting()">{{'login.login' | translate }}  </a>
+      </li>  
+  </ul> 
+  <div class="form-inline">
+    <button class="btn btn-outline-success mr-sm-2"style="margin-right: 10px;"(click)="onTranslator('en')" >{{'login.Eng' | translate }}</button>
+    <button class="btn btn-outline-success my-2 my-sm-0"(click)="onTranslator('mal')">{{'login.Mal' | translate }}</button>
+    </div>
+</nav>
+</header>
+<!-- <ul class="nav nav bg-dark">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="homeRouting()">{{'login.home' | translate }}  </a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="loginRouting()">{{'login.login' | translate }}  </a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="onTranslator('en')">{{'login.Eng' | translate }}  </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="onTranslator('mal')">{{'login.Mal' | translate }}  </a>
+      </li>  
+  </ul> -->
+
+  <!-- <ul class="nav justify-content-end">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="onTranslator('en')">{{'login.Eng' | translate }}  </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" (click)="onTranslator('mal')">{{'login.Mal' | translate }}  </a>
+      </li>
+</ul> -->

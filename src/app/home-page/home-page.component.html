@@ -1,0 +1,12 @@
+<div class="my-5">
+<div *ngFor="let item of item; index as i;">
+    <div class="my-3 p-3 bg-white rounded shadow-sm"style="text-align: justify;text-align-last:center" >
+    <div class="col-md-12" >  
+        <h4>{{(translateitem=='en'||(item.title_malayalam==''))?item.title:item.title_malayalam}} </h4>
+    </div>
+    <div class="p-5 pt-3">
+        {{(translateitem=='en'||(item.body_malayalam==''))?item.body:item.body_malayalam}}
+    </div>
+</div>
+</div>
+</div>
